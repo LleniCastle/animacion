@@ -127,19 +127,18 @@ main {
 
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     box-shadow: 10% rgb(103, 238, 238);
     filter: grayscale(75%);
 }
 
-;
 
 img:hover {
     transition: all 1s ease-in-out;
-    box-shadow: -1px -1px 6px 0 rgb(226, 158, 211), 4px 4px 16px 2px rgb(92, 162, 235);
-    width: 150px;
-    height: 150px;
+    box-shadow: -1px -1px 6px 2px rgb(226, 158, 211), 4px 4px 16px 2px rgb(92, 162, 235);
+    width: 160px;
+    height: 160px;
     filter: saturate(150%);
 
 }
@@ -218,7 +217,7 @@ input {
     }
 
     img:hover {
-        box-shadow: -1px -1px 6px 0 rgb(226, 158, 211), 4px 4px 16px 2px rgb(92, 162, 235);
+        box-shadow: -1px -1px 6px 2px rgb(226, 158, 211), 4px 4px 16px 2px rgb(92, 162, 235);
         width: 280px;
         height: 280px;
         filter: saturate(150%);
@@ -341,7 +340,7 @@ input {
     }
 
     img:hover {
-        box-shadow: -1px -1px 6px 0 rgb(226, 158, 211), 4px 4px 16px 2px rgb(92, 162, 235);
+        box-shadow: -1px -1px 6px 2px rgb(226, 158, 211), 4px 4px 16px 2px rgb(92, 162, 235);
         width: 300px;
         height: 290px;
         filter: saturate(150%);
